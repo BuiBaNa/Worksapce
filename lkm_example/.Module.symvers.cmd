@@ -1,0 +1,1 @@
+cmd_/home/buibana/workspace/lkm_example/Module.symvers := sed 's/ko$$/o/' /home/buibana/workspace/lkm_example/modules.order | scripts/mod/modpost  -a   -o /home/buibana/workspace/lkm_example/Module.symvers -e -i Module.symvers   -T -

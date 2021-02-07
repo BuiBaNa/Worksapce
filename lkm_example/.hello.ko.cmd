@@ -1,0 +1,1 @@
+cmd_/home/buibana/workspace/lkm_example/hello.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o /home/buibana/workspace/lkm_example/hello.ko /home/buibana/workspace/lkm_example/hello.o /home/buibana/workspace/lkm_example/hello.mod.o;  true
